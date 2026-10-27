@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the Instance ID and path to the .env file
-INSTANCE_ID="i-030da7d31a1dbbffc"
+
 
 # Retrieve the public IP address of the specified EC2 instance
 ipv4_address=$(curl -s http://checkip.amazonaws.com)
